@@ -88,13 +88,13 @@ unsigned int find_median(unsigned char *p,unsigned int size)
 }
 unsigned int find_mean(unsigned char *p,unsigned int size)
 {
-	int sum=0;
+	int sum=0,count;
 	for(int i=0;i<size;i++)
 	{
 		sum=sum + *p ;
-		p++;
+		p++;count++;
 	}
-	return (sum/2) ;
+	return (sum/count) ;
 }
 unsigned int find_maximum(unsigned char *p,unsigned int size)
 {
