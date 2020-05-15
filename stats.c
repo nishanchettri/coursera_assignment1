@@ -7,19 +7,20 @@
  * software. Alex Fosdick and the University of Colorado are not liable for any
  * misuse of this material. 
  *
- *****************************************************************************/
+ * /
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief week 1 assignment - You are to write a couple of functions that can 
+ * analyze an array of unsigned char data items and report analytics on the maximum, 
+ * minimum, mean, and median of the data set. In addition, you will need to reorder 
+ * this data set from large to small. All statistics should be rounded down to the nearest integer. 
+ * After analysis and sorting is done, you will need to print that data to the screen in nicely 
+ * formatted presentation. You will need to submit a version controlled repository of these 3 files.
  *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Nishan Chettri
+ * @date 13/05/20
  *
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"
@@ -34,10 +35,42 @@ void main() {
                               200, 122, 150, 90,   92,  87, 177, 244,
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
+  // print Given array
 
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
+  // print statistics
+
 
 }
 
-/* Add other Implementation File Code Here */
+void print_array(unsigned char *p,unsigned int size)
+{
+
+}
+unsigned char* sort_array(unsigned char *p,unsigned int size)
+{
+
+}
+unsigned int find_median(unsigned char *p,unsigned int size)
+{
+
+	
+}
+unsigned int find_mean(unsigned char *p,unsigned int size)
+{
+;
+}
+unsigned int find_maximum(unsigned char *p,unsigned int size)
+{
+
+}
+unsigned int find_minimum(unsigned char *p,unsigned int size)
+{
+
+}
+void print_statistics(unsigned char *p,unsigned int size)
+{
+
+	
+}
+
+
