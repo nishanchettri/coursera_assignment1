@@ -5,13 +5,22 @@
 
 
 void assert_card_valid(card_t c) {
+<<<<<<< HEAD
   assert((c.value>=2)&&(c.value<=VALUE_ACE));
   assert((c.suit>=SPADES)&&(c.suit<=CLUBS));
+=======
+assert((c.value>=2)&&(c.value<=VALUE_ACE));
+assert((c.suit>=SPADES)&&(c.suit<=CLUBS));
+>>>>>>> 272bc856da26f207ffcf9285f8522d4ccd00f8b7
 }
 
 const char * ranking_to_string(hand_ranking_t r) {
   switch(r)
+<<<<<<< HEAD
     {
+=======
+  { 
+>>>>>>> 272bc856da26f207ffcf9285f8522d4ccd00f8b7
     case STRAIGHT_FLUSH: return "STRAIGHT_FLUSH";break;
     case  FOUR_OF_A_KIND: return "FOUR_OF_A_KIND";break;
     case  FULL_HOUSE: return "FULL_HOUSE";break;
@@ -20,9 +29,15 @@ const char * ranking_to_string(hand_ranking_t r) {
     case  THREE_OF_A_KIND: return "THREE_OF_A_KIND";break;
     case  TWO_PAIR: return "TWO_PAIR";break;
     case  PAIR: return "PAIR";break;
+<<<<<<< HEAD
     case  NOTHING:return "NOTHING";break;
     }
   return "";
+=======
+    case  NOTHING: "NOTHING";break;
+
+  }
+>>>>>>> 272bc856da26f207ffcf9285f8522d4ccd00f8b7
 }
 char value_letter(card_t c) {
   switch(c.value)
